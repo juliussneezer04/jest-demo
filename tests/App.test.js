@@ -11,9 +11,15 @@ jest.mock("../lib/utils", () => ({
 
 // ========= TESTS =========
 describe("<App />", () => {
-  it("has 5 child", () => {
+  /**
+   * Passes if the component renders without crashing.
+   * 
+   * Snapshot testing is a good way to test the UI of your components,
+   * and is extremely easy to setup.
+   */
+  it("can render", () => {
     const tree = renderer.create(<App />).toJSON();
-    expect(tree.children.length).toBe(5);
+    expect(tree).toMatchSnapshot();
   });
 });
 
