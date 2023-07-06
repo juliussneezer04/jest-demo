@@ -36,7 +36,9 @@ export default function App() {
       </View>
       <View style={styles.line}>
         <Text style={styles.label}>Division Result: </Text>
-        <Text style={styles.label}>{divideNumbers(numerator, denominator)}</Text>
+        <Text style={styles.label}>
+          {divideNumbers(numerator, denominator)}
+        </Text>
       </View>
       <StatusBar style="auto" />
     </View>
