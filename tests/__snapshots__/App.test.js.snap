@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> can render 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+      "rowGap": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Numerator: 
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      1
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter New Numerator"
+      style={
+        [
+          {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          {
+            "backgroundColor": "lightgray",
+            "padding": 8,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Denominator: 
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      1
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter New Denominator"
+      style={
+        [
+          {
+            "fontSize": 24,
+            "fontWeight": "bold",
+          },
+          {
+            "backgroundColor": "lightgray",
+            "padding": 8,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Division Result: 
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      42
+    </Text>
+  </View>
+</View>
+`;
