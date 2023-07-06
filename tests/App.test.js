@@ -19,7 +19,6 @@ describe("<App />", () => {
 
 
 describe("Division Function", () => {
-  // NOTE: Use %d for numbers, %s for strings, %j for JSON
   it("can divide non-zero numbers", () => {
     const num = 10;
     const denom = 2;
@@ -34,6 +33,8 @@ describe("Division Function", () => {
 
   
   it("throws an error when dividing by zero", () => {
+    // We need to import the actual function because we are mocking the entire module above.
+    const { divideNumbers } = jest.requireActual("../lib/utils");
     expect(() => divideNumbers(1, 0)).toThrow();
   });
 
